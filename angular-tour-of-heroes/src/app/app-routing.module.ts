@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: 'detail/:id', component: HeroDetailComponent },
 ];
 
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
